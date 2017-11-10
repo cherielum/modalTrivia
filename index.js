@@ -48,7 +48,7 @@ londonBtn.addEventListener('click', openlondonModal);
 closeBtnLondon.addEventListener('click', closelondonModal); 
 
 //listen for outside click
-window.addEventListener('click', outsideClick);
+window.addEventListener('click', outsideClickLondon);
 
 //function to open modal 
 function openlondonModal() {
@@ -62,7 +62,7 @@ function closelondonModal() {
 }
 
 //function to close modal if outside click 
-function outsideClick(e){
+function outsideClickLondon(e){
 	if(e.target == londonModal) {
 	londonModal.style.display = 'none'; 
 	}
@@ -84,7 +84,7 @@ tokyoBtn.addEventListener('click', opentokyoModal);
 closeBtnTokyo.addEventListener('click', closetokyoModal); 
 
 //listen for outside click
-window.addEventListener('click', outsideClick);
+window.addEventListener('click', outsideClickTokyo);
 
 //function to open modal 
 function opentokyoModal() {
@@ -92,12 +92,12 @@ function opentokyoModal() {
 }
 
 //function to close modal 
-function closelondonModal() {
+function closetokyoModal() {
 	tokyoModal.style.display= 'none';
 }
 
 //function to close modal if outside click 
-function outsideClick(e){
+function outsideClickTokyo(e){
 	if(e.target == tokyoModal) {
 	tokyoModal.style.display = 'none'; 
 	}
