@@ -1,0 +1,235 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 17px; 
+	line-height: 1.6; 
+}
+
+.button {
+	background: coral; 
+	padding: 1em 2em; 
+	color: #fff; 
+	border: 0; 
+	margin-top: 3%;
+	margin-left: 10%;
+}
+
+.button:hover{
+	background: #333;
+}
+
+.modal {
+	display: none;  /*takes away the modal content*/
+	position: fixed; 
+	z-index: 1;
+	left: 0; 
+	top:0;
+	height: 100%;
+	width: 100%;
+	overflow: auto; /*enable scrollbar if needed*/
+	background-color:rgba(0,0,0,0.5);
+}
+
+.modal-content {
+	background-color: #f4f4f4;
+	margin: 15% auto; /*auto is left and right*/
+	width: 70%; /*makes box width smaller*/
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+	animation-name: modalOpen;
+	animation-duration: 1s;
+}
+
+.modal-header h2, modal-footer h3{
+	margin: 0; 
+}
+
+.modal-header {
+	background: coral; 
+	padding: 15px; 
+	color:#fff;
+}
+
+.modal-body {
+	padding: 10px 20px;
+}
+
+
+
+.modal-footer {
+	background: coral;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+
+.closeBtn {
+	color: #ccc; /*light gray*/
+	float: right;
+	font-size: 30px;
+	color: #fff;
+}
+
+.closeBtn:hover,.closeBtn:focus {
+	color: #000;
+	text-decoration: none; /*no underline*/
+	cursor: pointer;
+}
+
+@keyframes modalOpen {
+	from {opacity:0}
+	to{opacity:1;}
+}
+
+/*LONDON BUTTON and MODAL */
+.londonBtn {
+	background: coral; 
+	padding: 1em 2em; 
+	color: #fff; 
+	border: 0; 
+	margin-top: 3%;
+}
+
+.londonBtn:hover{
+	background: #333;
+}
+
+.londonModal {
+	display: none;  /*takes away the modal content*/
+	position: fixed; 
+	z-index: 1;
+	left: 0; 
+	top:0;
+	height: 100%;
+	width: 100%;
+	overflow: auto; /*enable scrollbar if needed*/
+	background-color:rgba(0,0,0,0.5);
+}
+
+.modal-content-london {
+	background-color: #f4f4f4;
+	margin: 15% auto; /*auto is left and right*/
+	width: 70%; /*makes box width smaller*/
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+	animation-name: londonModalOpen;
+	animation-duration: 1s;
+}
+
+.modal-header-london h2, modal-footer-london h3{
+	margin: 0; 
+}
+
+.modal-header-london {
+	background: coral; 
+	padding: 15px; 
+	color:#fff;
+}
+
+.londonModal-body {
+	padding: 10px 20px;
+}
+
+
+
+.modal-footer-london{
+	background: coral;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+
+.closeBtnLondon {
+	color: #ccc; /*light gray*/
+	float: right;
+	font-size: 30px;
+	color: #fff;
+}
+
+.closeBtnLondon:hover,.closeBtnLondon:focus {
+	color: #000;
+	text-decoration: none; /*no underline*/
+	cursor: pointer;
+}
+
+@keyframes londonModalOpen {
+	from {opacity:0}
+	to{opacity:1;}
+}
+
+/*TOKYO BUTTON and MODAL */
+.tokyoBtn {
+	background: coral; 
+	padding: 1em 2em; 
+	color: #fff; 
+	border: 0; 
+	margin-top: 3%;
+}
+
+.tokyoBtn:hover{
+	background: #333;
+}
+
+.tokyoModal {
+	display: none;  /*takes away the modal content*/
+	position: fixed; 
+	z-index: 1;
+	left: 0; 
+	top:0;
+	height: 100%;
+	width: 100%;
+	overflow: auto; /*enable scrollbar if needed*/
+	background-color:rgba(0,0,0,0.5);
+}
+
+.modal-content-tokyo {
+	background-color: #f4f4f4;
+	margin: 15% auto; /*auto is left and right*/
+	width: 70%; /*makes box width smaller*/
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+	animation-name: tokyoModalOpen;
+	animation-duration: 1s;
+}
+
+.modal-header-tokyo h2, modal-footer-tokyo h3{
+	margin: 0; 
+}
+
+.modal-header-tokyo {
+	background: coral; 
+	padding: 15px; 
+	color:#fff;
+}
+
+.tokyoModal-body {
+	padding: 10px 20px;
+}
+
+
+
+.modal-footer-tokyo{
+	background: coral;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+
+.closeBtnTokyo {
+	color: #ccc; /*light gray*/
+	float: right;
+	font-size: 30px;
+	color: #fff;
+}
+
+.closeBtnTokyo:hover,.closeBtnTokyo:focus {
+	color: #000;
+	text-decoration: none; /*no underline*/
+	cursor: pointer;
+}
+
+@keyframes tokyoModalOpen {
+	from {opacity:0}
+	to{opacity:1;}
+}
+
+
